@@ -47,7 +47,7 @@ sudo python Weather.py
 ```
 
 
-The End result will look like this
+The End result should look like this ( I used the german language for displaying the information)
 
 
 ![IMG_20200112_193110](https://user-images.githubusercontent.com/59802903/72223774-e6073f80-3572-11ea-86c5-6ffc32b6b5b5.jpg)
