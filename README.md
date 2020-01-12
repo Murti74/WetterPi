@@ -1,5 +1,12 @@
 # WetterPi
 
+This Projcet focuses on showing weather statistics on an OLED Display with the use of the Raspberry Pi (WH) and python .
+
+
+The Oled display I used for this project can be bought here
+```
+https://amzn.to/30elrSy
+```
 
 First you need to install the necessary libraries for the oled display.
 
@@ -7,17 +14,13 @@ First you need to install the necessary libraries for the oled display.
 sudo python -m pip install --upgrade pip setuptools wheel
 sudo pip install Adafruit-SSD1306
 ```
-The Oled display I used for this project can be bought here
-```
-https://www.amazon.de/gp/product/B01L9GC470/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1
-```
-
 
 Install Pyowm with 
 
 ```
 $ pip install pyowm
 ```
+
 
 In order to be able to use pyowm, you need to create an account at 
 ```
@@ -26,6 +29,19 @@ https://openweathermap.org/api
 
 and get your own unique API Key.
 
+
+After these steps clone this repository with
+
+```
+$ git clone https://github.com/Murti74/WetterPi.git
+```
+
+and insert your unique API Key into to python file.
+
+Run the code with
+```
+sudo python Weather.py
+```
 
 
 The End result will look like this
