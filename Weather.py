@@ -13,7 +13,7 @@ import time
 import datetime
 import pyowm
 
-owm = OWM('61c13cb0f5214ba6c1e584ec076b9478',language='de') #set language
+owm = OWM('YOUR API KEY',language='de') #insert here your api key
 RST = 24
 DC = 23
 SPI_PORT = 0
