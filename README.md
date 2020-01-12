@@ -1,6 +1,6 @@
 # WetterPi
 
-This smal project will show you on displaying weather statistics on an OLED Display with the use of the Raspberry Pi (WH) and python .
+This small project will show you on displaying weather statistics on an OLED Display with the use of the Raspberry Pi (WH) and python .
 
 
 The Oled display I used for this project can be bought here
