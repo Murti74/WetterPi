@@ -22,3 +22,10 @@ https://openweathermap.org/api
 
 and get your own unique API Key.
 
+
+
+The End result will look like this
+
+
+![IMG_20200112_193110](https://user-images.githubusercontent.com/59802903/72223774-e6073f80-3572-11ea-86c5-6ffc32b6b5b5.jpg)
+
