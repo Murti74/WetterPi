@@ -1,6 +1,6 @@
 # WetterPi
 
-This Projcet focuses on showing weather statistics on an OLED Display with the use of the Raspberry Pi (WH) and python .
+This smal project will show you on displaying weather statistics on an OLED Display with the use of the Raspberry Pi (WH) and python .
 
 
 The Oled display I used for this project can be bought here
@@ -37,6 +37,9 @@ $ git clone https://github.com/Murti74/WetterPi.git
 ```
 
 and insert your unique API Key into to python file.
+
+
+
 
 Run the code with
 ```
