@@ -7,6 +7,10 @@ First you need to install the necessary libraries for the oled display.
 sudo python -m pip install --upgrade pip setuptools wheel
 sudo pip install Adafruit-SSD1306
 ```
+The Oled display I used for this project can be bought here
+```
+https://www.amazon.de/gp/product/B01L9GC470/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1
+```
 
 
 Install Pyowm with 
