@@ -13,7 +13,7 @@ import time
 import datetime
 import pyowm
 
-owm = OWM('61c13cb0f5214ba6c1e584ec076b9478',language='de')
+owm = OWM('61c13cb0f5214ba6c1e584ec076b9478',language='de') #set language
 RST = 24
 DC = 23
 SPI_PORT = 0
@@ -33,7 +33,7 @@ draw.rectangle((0,0,width,height), outline=0, fill=0)
 
 x = str(datetime.datetime.now().time())
 x = x[:-10]
-observation = owm.weather_at_place('Hamm,de')
+observation = owm.weather_at_place('Berlin,de') # set location
 w = observation.get_weather()
 
 
@@ -56,16 +56,12 @@ font = ImageFont.load_default()
 
 
 draw.rectangle((0,0,127,63), outline=255, fill=0)
-draw.text((2, 5), "Hamm",  fill=255)
-draw.text((2, 15), "Temperatur *C = " + str(temp), fill=255)
-draw.text((2, 25), "Feuchtigkeit = "+str(feuc)+"%", fill =255)
+draw.text((2, 5), "Berlin",  fill=255)
+draw.text((2, 15), "Temperature *C = " + str(temp), fill=255)
+draw.text((2, 25), "Humidity = "+str(feuc)+"%", fill =255)
 draw.text((2, 35), stat, fill =255)
-draw.text((50, 50), "Made by Murti", fill =255)
 disp.image(image)
 disp.display()
-
-#GPIO.add_event_detect(21,GPIO.RISING,callback=button_callback)
-#GPIO.cleanup()
 
 
 while 1:
