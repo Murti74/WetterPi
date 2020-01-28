@@ -31,8 +31,6 @@ draw = ImageDraw.Draw(image)
 
 draw.rectangle((0,0,width,height), outline=0, fill=0)
 
-x = str(datetime.datetime.now().time())
-x = x[:-10]
 observation = owm.weather_at_place('Berlin,de') # set city and country
 w = observation.get_weather()
 
